@@ -8,3 +8,4 @@ if key == 27:
     cv2.destroyAllWindows()
 elif key == ord('s'):
     cv2.imwrite('shiva.png', img)
+    cv2.destroyAllWindows()
